@@ -19,4 +19,10 @@ const DUMMY_USERS = {
       email: 'geovane@alunos.com.br',
       avatarUrl:
           'https://cdn.pixabay.com/photo/2013/07/13/10/07/man-156584_960_720.png'),
+  '4': const User(
+      id: '4',
+      name: 'Geovane',
+      email: 'geovane@alunos.com.br',
+      avatarUrl:
+          'https://media-exp1.licdn.com/dms/image/C4D03AQGp-crxPNVNfg/profile-displayphoto-shrink_200_200/0/1518536005636?e=1622073600&v=beta&t=sA6a9SO1dHGZOQReI0ewheZlG-CP54i91V2IFUqhp7Y'),
 };

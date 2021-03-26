@@ -1,7 +1,18 @@
 # flutter_crud
 
-A new Flutter project.
+*Projeto CRUD em FLutter
+## Inspiracoes: 
+https://bestflutterpack.com/complete-ready-to-use-neumorphic-ui-kit-for-flutter/
 
+-
+
+https://medium.com/flutterdevs/feature-discovery-in-flutter-af2032e912d4
+
+-
+
+https://pub.dev/packages/button_animations
+
+-
 ## Getting Started
 
 This project is a starting point for a Flutter application.

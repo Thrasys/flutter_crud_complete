@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_crud/models/user.dart';
+import 'package:flutter_neumorphic/flutter_neumorphic.dart';
 
 class UserTile extends StatelessWidget {
   final User user;
@@ -11,8 +12,19 @@ class UserTile extends StatelessWidget {
         ? CircleAvatar(
             child: Icon(Icons.person),
           )
-        : CircleAvatar(
-            backgroundImage: NetworkImage(user.avatarUrl),
+        : Neumorphic(
+            style: NeumorphicStyle(
+                shape: NeumorphicShape.convex,
+                depth: 8,
+                lightSource: LightSource.topLeft,
+                color: Colors.grey),
+            drawSurfaceAboveChild: true,
+            child: Image(
+              fit: BoxFit.scaleDown,
+              width: 50,
+              height: 50,
+              image: NetworkImage(user.avatarUrl),
+            ),
           );
     return ListTile(
         leading: avatar,
